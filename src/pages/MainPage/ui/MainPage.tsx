@@ -13,7 +13,6 @@ const MainPage: FC = () => {
 			<button onClick={toggle}>{t('Translate')}</button>
 
 			<p>{t('MainPage')}</p>
-			<p>{t('MainPage', { ns: ['main'] })}</p>
 		</div>
 	)
 }
