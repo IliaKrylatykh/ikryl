@@ -10,7 +10,9 @@ const MainPage: FC = () => {
 
 	return (
 		<div>
-			<button onClick={toggle}>{t('Translate')}</button>
+			<button type='button' onClick={toggle}>
+				{t('Translate')}
+			</button>
 
 			<p>{t('MainPage')}</p>
 		</div>

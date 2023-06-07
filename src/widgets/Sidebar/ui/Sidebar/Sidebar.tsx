@@ -1,4 +1,3 @@
-import { ThemeSwitcher } from 'features/ThemeSwitcher'
 import { FC, useState } from 'react'
 import { RoutePath } from 'shared/config/routes/routes'
 import { classNames } from 'shared/lib/classNames/classNames'
@@ -48,10 +47,10 @@ export const Sidebar: FC<SidebarProps> = ({ className }) => {
 					theme={AppLinkTheme.SECONDARY}
 					className={cls.item}
 				>
-					<span className={cls.link}>'О сайте'</span>
+					<span className={cls.link}>"О сайте"</span>
 				</AppLink>
 			</div>
-			<div className={cls.switchers}></div>
+			<div className={cls.switchers} />
 		</div>
 	)
 }
