@@ -48,6 +48,8 @@ module.exports = {
 		'react/no-unescaped-entities': 'off',
 		'arrow-parens': 'off',
 		'comma-dangle': 'off',
+		'arrow-body-style': [0, 'as-needed'],
+		'react/jsx-wrap-multilines': 'off',
 		'i18next/no-literal-string': [
 			'warn',
 			{
