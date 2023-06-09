@@ -8,11 +8,14 @@ interface LoaderProps {
 
 export const Loader: FC<LoaderProps> = ({ className }) => {
 	return (
-		<div className={classNames('lds-ring', {}, [className])}>
-			<div />
-			<div />
-			<div />
-			<div />
+		<div
+			className={classNames('lds-ring', {}, [className])}
+			data-testid='loader'
+		>
+			<div data-testid='loader-element' />
+			<div data-testid='loader-element' />
+			<div data-testid='loader-element' />
+			<div data-testid='loader-element' />
 		</div>
 	)
 }
