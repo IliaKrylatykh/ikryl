@@ -1,3 +1,4 @@
+import { LangSwitcher } from 'features/LangSwitcher/LangSwitcher'
 import { ThemeSwitcher } from 'features/ThemeSwitcher'
 import { FC } from 'react'
 import { classNames } from 'shared/lib/classNames/classNames'
@@ -9,7 +10,9 @@ interface NavbarProps {
 
 export const Navbar: FC<NavbarProps> = ({ className }) => (
 	<div className={classNames(cls.Navbar, {}, [className])}>
-		<ThemeSwitcher />
-		<div className={cls.links} />
+		<div className={cls.switchers}>
+			<ThemeSwitcher />
+			<LangSwitcher />
+		</div>
 	</div>
 )

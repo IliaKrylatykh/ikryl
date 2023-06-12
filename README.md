@@ -11,3 +11,5 @@ For tests : Jest
 Linters: Eslint, Stylelint
 
 Architecture methodology: FSD - https://feature-sliced.design/
+
+Assets: icons: Scarlab Oval Line Icons Collection
