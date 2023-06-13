@@ -13,7 +13,7 @@ module.exports = {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 	},
-	plugins: ['react', '@typescript-eslint', 'i18next'],
+	plugins: ['react', '@typescript-eslint', 'i18next', 'react-hooks'],
 	rules: {
 		'react/jsx-indent': [2, 'tab'],
 		'react/jsx-indent-props': [2, 'tab'],
@@ -40,6 +40,8 @@ module.exports = {
 		'react/react-in-jsx-scope': 'off',
 		'react/jsx-props-no-spreading': 'warn',
 		'react/function-component-definition': 'off',
+		'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/exhaustive-deps': 'error',
 		'no-shadow': 'off',
 		'import/extensions': 'off',
 		'import/no-extraneous-dependencies': 'off',
@@ -50,6 +52,9 @@ module.exports = {
 		'comma-dangle': 'off',
 		'arrow-body-style': [0, 'as-needed'],
 		'react/jsx-wrap-multilines': 'off',
+		'object-curly-newline': 'off',
+		'jsx-a11y/click-events-have-key-events': 'off',
+		'jsx-a11y/no-static-element-interactions': 'off',
 		'i18next/no-literal-string': [
 			'warn',
 			{
