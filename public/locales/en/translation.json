@@ -7,5 +7,7 @@
   "MainPage": "",
   "Page not found": "Page not found",
   "Refresh page": "Refresh page",
-  "Unexpected error": "Unexpected error"
+  "Unexpected error": "Unexpected error",
+  "decrement": "Decrement",
+  "increment": "Increment"
 }

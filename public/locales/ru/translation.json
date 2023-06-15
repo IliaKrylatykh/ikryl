@@ -7,5 +7,7 @@
   "MainPage": "",
   "Page not found": "Страница не найдена",
   "Refresh page": "Обновить страницу",
-  "Unexpected error": "Непредвиденная ошибка"
+  "Unexpected error": "Непредвиденная ошибка",
+  "decrement": "Декремент",
+  "increment": "Инкремент"
 }
