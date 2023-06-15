@@ -13,3 +13,5 @@ Linters: Eslint, Stylelint
 Architecture methodology: FSD - https://feature-sliced.design/
 
 Assets: icons: Scarlab Oval Line Icons Collection
+
+JSON-server: json-server --watch ./json-server/db.json --port 8000

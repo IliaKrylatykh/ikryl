@@ -32,6 +32,7 @@ module.exports = {
 			},
 		],
 		'linebreak-style': 'off',
+		'operator-linebreak': 'off',
 		'import/no-unresolved': 'off',
 		'import/prefer-default-export': 'off',
 		'no-unused-vars': 'off',

@@ -35,7 +35,6 @@ export const Navbar: FC<NavbarProps> = ({ className }) => {
 				</Button>
 				<Modal isOpen={isAuthModal} onClose={() => setIsAuthModal(false)}>
 					<Counter />
-					<p>modalka</p>
 				</Modal>
 			</div>
 		</div>
