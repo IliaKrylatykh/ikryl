@@ -6,8 +6,10 @@
   "Main page": "Главная страница",
   "MainPage": "",
   "Page not found": "Страница не найдена",
+  "Password": "Пароль",
   "Refresh page": "Обновить страницу",
   "Unexpected error": "Непредвиденная ошибка",
+  "Username": "Имя пользователя",
   "decrement": "Декремент",
   "increment": "Инкремент"
 }

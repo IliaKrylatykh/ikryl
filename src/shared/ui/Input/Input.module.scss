@@ -1,0 +1,11 @@
+.Input {
+	margin: 2px 5px;
+
+	.input {
+		padding: 2px 5px;
+		border: 1px solid var(--inverted-bg-color);
+		border-radius: 2px;
+		background: var(--bg-color-additional);
+		color: var(--primary-color);
+	}
+}
