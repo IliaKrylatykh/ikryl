@@ -26,3 +26,7 @@ Commands:
 "lint:scss": linter check scss files  
 "lint:scss:fix": linter fix scss files  
 "test:unit": run all tests
+
+Enjoy!
+
+![giphy](https://github.com/IliaKrylatykh/ikryl/assets/103941809/07dd7066-4ed5-4765-8c33-ed7b5397d4b9)
