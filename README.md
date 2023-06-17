@@ -10,6 +10,8 @@ For tests : Jest
 
 Linters: Eslint, Stylelint
 
+CI/CD: Husky, Github-actions
+
 Architecture methodology: FSD - https://feature-sliced.design/
 
 Assets: icons: Scarlab Oval Line Icons Collection
