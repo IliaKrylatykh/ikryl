@@ -75,6 +75,8 @@
 	},
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.9.5",
+		"axios": "^1.4.0",
+		"cors": "^2.8.5",
 		"i18next": "^22.5.0",
 		"i18next-browser-languagedetector": "^7.0.2",
 		"i18next-http-backend": "^2.2.1",

@@ -4,7 +4,7 @@ Hello!
 
 Node version: 18.16.0
 
-Stack at the moment: React, Typescript, Redux/toolkit, Webpack, SCSS modules
+Stack at the moment: React, Typescript, Redux/toolkit, Axios, Webpack, SCSS modules
 
 For tests : Jest
 

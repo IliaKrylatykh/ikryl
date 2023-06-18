@@ -52,6 +52,7 @@ module.exports = {
 		'react/no-unescaped-entities': 'off',
 		'arrow-parens': 'off',
 		'comma-dangle': 'off',
+		'no-console': 'off',
 		'arrow-body-style': [0, 'as-needed'],
 		'react/jsx-wrap-multilines': 'off',
 		'object-curly-newline': 'off',
