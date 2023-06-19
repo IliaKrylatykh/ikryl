@@ -28,7 +28,7 @@ module.exports = {
 			'warn',
 			{
 				ignoreComments: true,
-				code: 100,
+				code: 120,
 			},
 		],
 		'linebreak-style': 'off',
