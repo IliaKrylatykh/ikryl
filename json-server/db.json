@@ -25,5 +25,14 @@
 			"password": "123"
 		}
 	],
-	"profile": { "name": "typicode" }
+	"profile": {
+		"firstname": "John",
+		"lastname": "Fru",
+		"age": 29,
+		"country": "Georgia",
+		"city": "Tbilisi",
+		"currency": "GEL",
+		"username": "admin",
+		"avatar": "https://upload.wikimedia.org/wikipedia/commons/7/7d/John_Frusciante_strat.jpg"
+	}
 }

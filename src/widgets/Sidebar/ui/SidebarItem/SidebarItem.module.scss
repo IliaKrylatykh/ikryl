@@ -1,0 +1,25 @@
+.item {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.link {
+	margin-left: 10px;
+	opacity: 1;
+}
+
+.icon {
+	stroke: var(--primary-color);
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 2;
+}
+
+.collapsed {
+	.link {
+		width: 0;
+		opacity: 0;
+		transition: 0.2s opacity;
+	}
+}

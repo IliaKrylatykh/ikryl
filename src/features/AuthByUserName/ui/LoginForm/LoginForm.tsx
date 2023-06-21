@@ -20,13 +20,14 @@ import cls from './LoginForm.module.scss'
 
 export interface LoginFormProps {
 	className?: string
+	onSuccess: () => void
 }
 
 const initialReducers: ReducersList = {
 	loginForm: loginReducer,
 }
 
-const LoginForm: FC<LoginFormProps> = memo(({ className }) => {
+const LoginForm: FC<LoginFormProps> = memo(({ className, onSuccess }) => {
 	const { t } = useTranslation()
 	const dispatch = useAppDispatch()
 	const username = useSelector(getLoginUsername)
@@ -48,9 +49,12 @@ const LoginForm: FC<LoginFormProps> = memo(({ className }) => {
 		[dispatch]
 	)
 
-	const onLoginClick = useCallback(() => {
-		dispatch(loginByUsername({ username, password }))
-	}, [username, password, dispatch])
+	const onLoginClick = useCallback(async () => {
+		const result = await dispatch(loginByUsername({ username, password }))
+		if (result.meta.requestStatus === 'fulfilled') {
+			onSuccess()
+		}
+	}, [onSuccess, username, password, dispatch])
 
 	return (
 		<DynamicModuleLoader removeAfterUnmount reducers={initialReducers}>

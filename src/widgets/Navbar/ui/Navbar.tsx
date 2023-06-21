@@ -2,7 +2,7 @@ import { getUserAuthData, userActions } from 'entities/User'
 import { LoginModal } from 'features/AuthByUserName'
 import { LangSwitcher } from 'features/LangSwitcher/LangSwitcher'
 import { ThemeSwitcher } from 'features/ThemeSwitcher'
-import { FC, useCallback, useState } from 'react'
+import { FC, memo, useCallback, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useSelector } from 'react-redux'
 import { useAppDispatch } from 'shared/hooks/useAppDispatch/useAppDispatch'
@@ -14,7 +14,7 @@ interface NavbarProps {
 	className?: string
 }
 
-export const Navbar: FC<NavbarProps> = ({ className }) => {
+export const Navbar: FC<NavbarProps> = memo(({ className }) => {
 	const { t } = useTranslation()
 	const authData = useSelector(getUserAuthData)
 	const [isAuthModal, setIsAuthModal] = useState(false)
@@ -68,4 +68,4 @@ export const Navbar: FC<NavbarProps> = ({ className }) => {
 			</div>
 		</div>
 	)
-}
+})
