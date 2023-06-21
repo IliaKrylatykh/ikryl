@@ -45,6 +45,7 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'error',
 		'react/prop-types': 'off',
 		'no-shadow': 'off',
+		'implicit-arrow-linebreak': 'off',
 		'import/extensions': 'off',
 		'import/no-extraneous-dependencies': 'off',
 		'no-underscore-dangle': 'off',
@@ -69,6 +70,7 @@ module.exports = {
 	},
 	globals: {
 		__IS_DEV__: true,
+		__API__: true,
 	},
 	overrides: [
 		{

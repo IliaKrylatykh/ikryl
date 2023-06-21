@@ -10,13 +10,13 @@ import App from './app/App'
 const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)
 root.render(
-	<StoreProvider>
-		<BrowserRouter>
+	<BrowserRouter>
+		<StoreProvider>
 			<ErrorBoundary>
 				<ThemeProvider>
 					<App />
 				</ThemeProvider>
 			</ErrorBoundary>
-		</BrowserRouter>
-	</StoreProvider>
+		</StoreProvider>
+	</BrowserRouter>
 )
